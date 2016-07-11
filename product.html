@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Olios</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+
+</head>
+
+<body>
+<div class="wrapper category">
+    <div class="row">
+        <nav>
+            <div class="col-xs-2 col-sm-1 fixed-menu">
+                <div class="left-menu">
+                    <div class="logo">
+                        <a href="index.html"><img src="./img/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="icon-menu">
+                        <a href="index.html"><img src="./img/Home.png" alt="icon"></a>
+                        <a href="#"><img src="./img/Basket.png" alt="icon"></a>
+                        <a href="#"><img src="./img/Search.png" alt="icon"></a>
+                        <a href="#"><img src="./img/In.png" alt="icon"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="product-container">
+            <div class="padding-off">
+                <div class="col-sm-4 col-sm-offset-1">
+                    <div class="product-img">
+                        <img src="./img/category/img6.jpg" alt="armchair-img">
+                        <div class="likes-block">
+                            <span>495</span>
+                            <img src="./img/category/Heart.png" alt="like-img">
+                        </div>
+                        <div class="bottom-blocks">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="add-to-basket">
+                                        <button type="submit" class="add">+</button>
+                                        <button type="submit" class="remove">-</button>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="search-and-pin">
+                                        <a href="#0"><img src="./img/Pin.png" alt="pin-img"></a>
+                                        <a href="#0"><img src="./img/Search.png" alt="search-img"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="container-text">
+                    <div class="title-products">
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-8">
+                                <h2>Products</h2>
+                            </div>
+                            <div class="col-xs-8 col-sm-4">
+                                <div class="item-menu icon-title">
+                                    <a href="#0">
+                                    <span>Living room
+                                        <div class="divider"></div>
+                                    </span>
+                                        <img src="./img/ICON4-.png" alt="icon">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-product">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h3>WHITE SEAT <span>- OFFICE</span></h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                                    Ut fermentum interdum malesuada. Sed ornare posuere lobortis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="count-product">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="price">
+                                        <p>cost</p>
+                                        <span>$65</span>
+                                        <span>$90</span>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6">
+                                    <div class="add-card">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <nav>
+            <div class="col-xs-3 col-sm-2 fixed-menu-right">
+                <div class="toggle-menu">
+                    <span></span>
+                </div>
+                <div class="right-menu">
+                    <div class="item-menu">
+                        <a href="./product.html">
+                                <span>Living room
+                                        <div class="divider"></div>
+                                    </span>
+                            <img src="./img/ICON4-.png" alt="icon">
+                        </a>
+                        <a href="./product.html">
+                                <span>Living room
+                                        <div class="divider"></div>
+                                    </span>
+                            <img src="./img/ICON.png" alt="icon">
+                        </a>
+                        <a href="./product.html">
+                                <span>Living room
+                                        <div class="divider"></div>
+                                    </span>
+                            <img src="./img/ICON1-.png" alt="icon">
+                        </a>
+                        <a href="./product.html">
+                                <span>Living room
+                                        <div class="divider"></div>
+                                    </span>
+                            <img src="./img/ICON2-.png" alt="icon">
+                        </a>
+                        <a href="./product.html">
+                                <span class="last-child">Living room
+                                        <div class="divider"></div>
+                                    </span>
+                            <img src="./img/ICON3-.png" alt="icon">
+                        </a>
+                    </div>
+                    <div class="show-all-category">
+                        <a href="./categories.html">Show All Categories</a>
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/smoothScroll.js"></script><!--animation-scroll -->
+<script src="js/wow.min.js"></script>
+<script>
+    wow = new WOW({
+        boxClass: 'wow', // default
+        animateClass: 'animated', // default
+        offset: 200, // default
+        mobile: true, // default
+        live: true // default
+    });
+    wow.init();
+</script>
+</body>
+</html>
