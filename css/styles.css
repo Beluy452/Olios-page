@@ -632,6 +632,10 @@ nav .col-sm-1 {
   transform: rotate(-180deg);
   writing-mode: vertical-rl;
   margin: 15px 0px 0px 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #dedede;
+  font-weight: 100;
 }
 .recommended-container .recommended-item .item-description {
   padding-top: 0;
