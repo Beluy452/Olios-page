@@ -203,10 +203,6 @@ nav .col-sm-1 {
   overflow-x: hidden;
   height: 100%;
 }
-.category {
-  background-image: none;
-  background-color: #f0f0f0;
-}
 .content {
   position: relative;
   text-align: center;
@@ -263,6 +259,10 @@ nav .col-sm-1 {
 }
 /*home-style -------------------*/
 /*category-style -------------------*/
+.category {
+  background-image: none;
+  background-color: #f0f0f0;
+}
 .content-category {
   max-width: 890px;
   margin: 0 auto;
@@ -647,3 +647,43 @@ nav .col-sm-1 {
   font-size: 8px;
 }
 /*product-style -------------------*/
+/*search-page---------------------*/
+.content-search {
+  padding-top: 170px;
+  max-width: 940px;
+  margin: 0 auto;
+  text-align: right;
+  position: relative;
+}
+.content-search input {
+  max-width: 800px;
+  width: 100%;
+  border: transparent;
+  background-color: transparent;
+  border-bottom: 1px solid #ddd;
+  font-size: 83px;
+  font-weight: 100;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s ;
+  -ms-transition: 0.5s ;
+  -o-transition: 0.5s ;
+  transition: 0.5s ;
+}
+.content-search input:focus {
+  outline: none;
+  max-width: 935px;
+}
+.content-search button {
+  position: absolute;
+  right: -20px;
+  background: transparent;
+  border: transparent;
+  color: #a9a9a9;
+  top: 225px;
+}
+.content-search button:focus {
+  outline: none;
+}
+/*search-page---------------------*/
